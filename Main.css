@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	margin: relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	font-family:"Arial", "sans-serif";
+	position: relative;
+	top: 12px;
+	padding: 0 8 0 8;
+	text-decoration: none;
+
+}
+
+#nav {
+	height:60;
+	padding: 0 15 0 15;
+	text-align: right;
+	display: block;
+	font-size: 13px;
+
+}
+
+div a:hover{
+	text-decoration: underline;
+}
+
+#signIn {
+	background-color: #4285f4;
+	border: 0.909 0.909 0.909 0.909;
+	border-color: #4285f4;
+	border-radius: 2px;
+	padding: 5 12 5 12;
+	height: 30px;
+	width: 70px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: small;
+	text-decoration: none;
+	
+}
+#logo {
+	text-align: center;
+	height: 231;
+}
+#logo img{
+	display: block;
+	text-align: center;
+	padding: 112;
+	height: 95;
+	width: 268;
+	margin: auto;
+}
+
+#search input{
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 545;
+	height: 30;
+	border: 1px solid #cdcdcd;
+}
+
+#search input:hover{
+	border-color: #a9a9a9;
+}
+
+#search input:focus{
+	border-color: #4285f4;
+}
+
+#buttons a {
+	display: inline;
+	background-color: #F5F5F5;
+	color: #4c4c4c;
+	text-align: center;
+	position: relative;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	height: 80;
+	font-weight: bold;
+	height: 30;
+	vertical-align: middle;
+	padding: 4 7 4 7;
+	margin: 16 8 16 8 ;
+	font-size: 11px;
+	margin-right: 5;
+	margin-left: 5;
+	text-decoration: none;
+
+	
+}
+
+#buttons {
+	text-align: center;
+	height: 80;
+	margin-top: 10;
+}
+
+#buttons a:hover{
+	/* So, I saw this in the code as the obvious thing to do to get the shadow
+	effect on the buttons, but I don't remember learning it 
+	in any of the lessons, and also felt guilty about copying and pasting it
+	into my code so I have it here as a comment. below is what I would do 
+	if I never saw this code: box-shadow: 0 1px 0 rgba(0,0,0,.15);*/
+	border: solid 1px #707070;
+}
